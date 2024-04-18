@@ -1,0 +1,8 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://liangshuzhi5193.github.io/esp_ths/bin/"
+
+supported_apps = ["ESP_THS"]
+
+[ESP_THS]
+chipsets = ["ESP32C6"]
+image.esp32c6 = "esp_ths_v1_20240418.bin"
